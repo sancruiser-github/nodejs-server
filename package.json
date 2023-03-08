@@ -1,0 +1,13 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "simple tcp node server",
+  "scripts": {
+    "start": "node wsserver.js"
+  },
+  "author": "sanjeev sharma",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  }
+}

@@ -1,10 +1,10 @@
 // Include Nodejs' net module.
 const Net = require("net");
-console.log(process.argv[1]);
 console.log(process.argv[2]);
+console.log(process.argv[3]);
 // The port number and hostname of the server.
-const port = process.argv[2];
-const host = process.argv[1];
+const host = process.argv[2];
+const port = process.argv[3];
 
 // Create a new TCP client.
 const client = new Net.Socket();

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "simple tcp node server",
   "scripts": {
-    "start": "node wsserver.js"
+    "start": "node tcpserver.js"
   },
   "author": "sanjeev sharma",
   "license": "ISC",
